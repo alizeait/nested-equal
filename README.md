@@ -2,7 +2,7 @@
 
 > A tiny (~239B) and [super fast](#benchmarks) deep/nested equality utility.
 
-Takes 2 values and returns a boolean deciding if they are equal by traversing recursively. 
+Takes 2 values and returns a boolean indicating if they are equal or not by traversing recursively. 
 Supports Objects, Arrays, numbers, strings, null, undefined, NaN, functions. Other types like Map, Set, Date use reference equality instead of value equality.
 
 Key order within objects _does not_ matter while value order within arrays _does_ matter.
@@ -38,7 +38,7 @@ nestedEqual(null,undefined); // false
 
 ## Benchmarks
 Claiming a library is fast without looking into the data structure is naive at best, since the data structure
-largely impacts performance as no algorithm can handle all the different data structures.
+largely impacts performance as no algorithm can handle all the different data structures. Hence a couple of benchmarks were made with some different data structures to compare it to other popular libararies.
 
 ```
 Benchmark 1
