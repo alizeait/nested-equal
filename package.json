@@ -1,6 +1,6 @@
 {
   "name": "nested-equal",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "A tiny (~200B) and fast nested/deep equality utility",
   "scripts": {
     "build": "microbundle",
