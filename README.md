@@ -3,7 +3,7 @@
 > A tiny (~239B) and [super fast](#benchmarks) deep/nested equality utility.
 
 Takes 2 values and returns a boolean indicating if they are equal or not by traversing recursively. 
-Supports Objects, Arrays, numbers, strings, null, undefined, NaN, functions. Other types like Map, Set, Date use reference equality instead of value equality.
+Supports `Objects`, `Arrays`, `Numbers`, `Strings`, `null`, `undefined`, `NaN`, `Functions`. Other types like `Map`, `Set`, `Date` and others use reference equality instead of value equality.
 
 Key order within objects _does not_ matter while value order within arrays _does_ matter.
 
