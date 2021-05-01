@@ -37,8 +37,7 @@ nestedEqual(null,undefined); // false
 ```
 
 ## Benchmarks
-Claiming a library is fast without looking into the data structure is naive at best, since the data structure
-largely impacts performance as no algorithm can handle all the different data structures. Hence a couple of benchmarks were made with some different data structures to compare it to other popular libararies.
+Claiming a library is fast without looking into the data structure is naive at best. Hence a couple of benchmarks were made with some different data structures to compare it to other popular libararies.
 
 ```
 Benchmark 1
